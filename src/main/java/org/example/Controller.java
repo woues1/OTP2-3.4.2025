@@ -47,6 +47,7 @@ public class Controller {
             stmt.setString(2, translationText);
             stmt.setString(3, languageCode);
             stmt.executeQuery();
+            changelanguage();
         } catch (Exception e) {
             e.printStackTrace();
         }
