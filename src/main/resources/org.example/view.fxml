@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.Controller">
+    <children>
+        <VBox alignment="CENTER" spacing="10.0" AnchorPane.topAnchor="10.0" AnchorPane.leftAnchor="10.0">
+            <ComboBox fx:id="languageComboBox" promptText="Select Language"/>
+            <Label fx:id="welcomeText" text="Data:"/>
+            <ListView fx:id="listView"/>
+            <TextField fx:id="keyNameField" promptText="job title"/>
+            <TextField fx:id="translationTextField" promptText="enter translation"/>
+            <Button fx:id="insertButton" text="create"/>
+        </VBox>
+    </children>
+</AnchorPane>
